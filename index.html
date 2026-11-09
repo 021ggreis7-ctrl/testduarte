@@ -4,20 +4,36 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Barbearia Duarte | Compensa 2, Manaus-AM</title>
-<meta name="description" content="Barbearia Duarte em Manaus-AM. Cortes, barba e sobrancelha. Atendimento por ordem de chegada. Av. Coronel Cyrilo Neves, 27, Compensa 2.">
+<meta name="description" content="Barbearia Duarte em Manaus-AM: cortes, barba e sobrancelha. Atendimento por ordem de chegada. Av. Coronel Cyrilo Neves, 27, Compensa 2.">
 <meta name="theme-color" content="#000000">
 <link rel="icon" href="06964002-4748-4A38-B793-8DA0985D4EAF.jpeg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-tesoura" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></symbol>
+    <symbol id="i-pente" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="1"/><path d="M6 10v9M10 10v9M14 10v9M18 10v9"/></symbol>
+    <symbol id="i-navalha" viewBox="0 0 24 24"><path d="M3 16 14 5l5 5L8 21z"/><path d="m14 5 3-2 4 4-2 3"/></symbol>
+    <symbol id="i-olho" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-gota" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
+    <symbol id="i-brilho" viewBox="0 0 24 24"><path d="m12 3 2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-zap" viewBox="0 0 24 24"><path d="M3 21l1.6-5A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 9c0 3 3 6 6 6l1-1.5-2-1-1 .8c-.8-.4-1.600-1.200-2-2l.8-1-1-2z"/></symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.200" cy="6.800" r=".6"/></symbol>
+    <symbol id="i-fila" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.500 2.700-6 6-6s6 2.500 6 6"/><path d="M17 11a3 3 0 0 0 0-6M19 20c0-2.500-1-4.500-3-5.500"/></symbol>
+  </defs>
+</svg>
+
 <header class="topo">
   <div class="topo-in">
     <a class="marca" href="#inicio" aria-label="Barbearia Duarte, início">
-      <img src="06964002-4748-4A38-B793-8DA0985D4EAF.jpeg" alt="Logo da Barbearia Duarte" width="44" height="44">
+      <img src="06964002-4748-4A38-B793-8DA0985D4EAF.jpeg" alt="Logo da Barbearia Duarte" width="46" height="46">
       <span>Barbearia Duarte</span>
     </a>
     <nav id="menu" class="menu" aria-label="Menu principal">
@@ -25,8 +41,9 @@
       <a href="#servicos">Serviços</a>
       <a href="#horarios">Horários</a>
       <a href="#localizacao">Localização</a>
+      <a class="btn btn-zap menu-zap" href="https://wa.me/5592986406309" target="_blank" rel="noopener">WhatsApp</a>
     </nav>
-    <a class="btn btn-zap btn-sm" href="https://wa.me/5592986406309" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="btn btn-zap btn-sm topo-zap" href="https://wa.me/5592986406309" target="_blank" rel="noopener">WhatsApp</a>
     <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -34,73 +51,95 @@
 <main>
 <section id="inicio" class="hero">
   <div class="wrap hero-in">
-    <img class="hero-logo" src="06964002-4748-4A38-B793-8DA0985D4EAF.jpeg" alt="Logo da Barbearia Duarte" width="260" height="260" fetchpriority="high">
+    <div class="moldura">
+      <img src="06964002-4748-4A38-B793-8DA0985D4EAF.jpeg" alt="Logo da Barbearia Duarte" width="280" height="280" fetchpriority="high">
+    </div>
     <div class="hero-txt">
-      <h1>Seu estilo começa aqui.</h1>
-      <p>Qualidade, cuidado e atenção em cada detalhe.</p>
+      <p class="status" data-status><svg class="ic"><use href="#i-relogio"/></svg><span>Atendimento por ordem de chegada</span></p>
+      <h1>Seu estilo<br>começa aqui.</h1>
+      <p class="lead">Qualidade, cuidado e atenção em cada detalhe.</p>
       <div class="acoes">
         <a class="btn btn-claro" href="#servicos">Ver serviços</a>
-        <a class="btn btn-zap" href="https://wa.me/5592986406309" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="btn btn-zap" href="https://wa.me/5592986406309" target="_blank" rel="noopener"><svg class="ic"><use href="#i-zap"/></svg>Chamar no WhatsApp</a>
       </div>
+      <p class="hero-end"><svg class="ic"><use href="#i-pin"/></svg>Compensa 2, Manaus-AM, em frente à Ilha Gelada</p>
     </div>
   </div>
 </section>
 <div class="listra" aria-hidden="true"></div>
 
-<section id="servicos" class="sec">
+<section id="servicos" class="sec sec-clara">
   <div class="wrap">
-    <h2>Serviços e valores</h2>
-    <p class="sub">Escolha o serviço e fale com a gente para confirmar disponibilidade.</p>
-    <ul class="cards">
-      <li><span>Corte social</span><b>R$ 25,00</b></li>
-      <li><span>Degradê</span><b>R$ 30,00</b></li>
-      <li><span>Corte militar</span><b>R$ 25,00</b></li>
-      <li><span>Corte + sobrancelha</span><b>R$ 35,00</b></li>
-      <li><span>Barba</span><b>R$ 20,00</b></li>
-      <li><span>Barboterapia</span><b>R$ 30,00</b></li>
-      <li><span>Sobrancelha</span><b>R$ 10,00</b></li>
-      <li><span>Luzes</span><b>R$ 80,00</b></li>
-    </ul>
-    <p class="aviso"><strong>Atenção:</strong> Valores ilustrativos para demonstração do projeto. Consulte a barbearia para confirmar os preços.</p>
-
-    <div class="atend">
-      <h3>Como funciona o atendimento</h3>
-      <p>Nosso atendimento funciona por ordem de chegada. Se preferir, entre em contato pelo WhatsApp para consultar informações e disponibilidade antes de vir até a barbearia.</p>
+    <div class="titulo">
+      <h2>Serviços e valores</h2>
+      <div class="div" aria-hidden="true"><i></i><svg class="ic"><use href="#i-tesoura"/></svg><i></i></div>
     </div>
+
+    <h3 class="grupo">Cortes</h3>
+    <ul class="cards">
+      <li><span class="ico"><svg class="ic"><use href="#i-tesoura"/></svg></span><span class="nome">Corte social</span><b class="preco">R$ 25,00</b></li>
+      <li><span class="ico"><svg class="ic"><use href="#i-pente"/></svg></span><span class="nome">Degradê</span><b class="preco">R$ 30,00</b></li>
+      <li><span class="ico"><svg class="ic"><use href="#i-navalha"/></svg></span><span class="nome">Corte militar</span><b class="preco">R$ 25,00</b></li>
+      <li><span class="ico"><svg class="ic"><use href="#i-olho"/></svg></span><span class="nome">Corte + sobrancelha</span><b class="preco">R$ 35,00</b></li>
+      <li><span class="ico"><svg class="ic"><use href="#i-brilho"/></svg></span><span class="nome">Luzes</span><b class="preco">R$ 80,00</b></li>
+    </ul>
+
+    <h3 class="grupo">Barba e acabamento</h3>
+    <ul class="cards">
+      <li><span class="ico"><svg class="ic"><use href="#i-navalha"/></svg></span><span class="nome">Barba</span><b class="preco">R$ 20,00</b></li>
+      <li><span class="ico"><svg class="ic"><use href="#i-gota"/></svg></span><span class="nome">Barboterapia</span><b class="preco">R$ 30,00</b></li>
+      <li><span class="ico"><svg class="ic"><use href="#i-olho"/></svg></span><span class="nome">Sobrancelha</span><b class="preco">R$ 10,00</b></li>
+    </ul>
+
+    <p class="aviso"><svg class="ic"><use href="#i-relogio"/></svg><span><strong>Preços não confirmados.</strong> Valores ilustrativos para demonstração do projeto. Consulte a barbearia para confirmar os preços.</span></p>
   </div>
 </section>
 
-<section id="horarios" class="sec sec-escura">
+<section class="sec sec-escura atend">
+  <div class="wrap atend-in">
+    <svg class="ic ic-g"><use href="#i-fila"/></svg>
+    <div>
+      <h2>Como funciona o atendimento</h2>
+      <p>Nosso atendimento funciona por ordem de chegada. Se preferir, entre em contato pelo WhatsApp para consultar informações e disponibilidade antes de vir até a barbearia.</p>
+      <a class="btn btn-zap" href="https://wa.me/5592986406309" target="_blank" rel="noopener"><svg class="ic"><use href="#i-zap"/></svg>Consultar pelo WhatsApp</a>
+    </div>
+  </div>
+</section>
+<div class="listra" aria-hidden="true"></div>
+
+<section id="horarios" class="sec sec-clara">
   <div class="wrap">
-    <h2>Horários de funcionamento</h2>
+    <div class="titulo">
+      <h2>Horários de funcionamento</h2>
+      <div class="div" aria-hidden="true"><i></i><svg class="ic"><use href="#i-relogio"/></svg><i></i></div>
+    </div>
     <div class="horas">
       <div data-dias="1,2,3,4,5,6"><span>Segunda a sábado</span><b>09h às 20h</b></div>
       <div data-dias="0"><span>Domingo</span><b>09h às 19h</b></div>
     </div>
+    <p class="agora" data-agora></p>
   </div>
 </section>
 
-<section id="localizacao" class="sec">
+<section id="localizacao" class="sec sec-escura">
   <div class="wrap loc">
-    <div>
+    <div class="loc-end">
       <h2>Localização</h2>
-      <address>
-        Avenida Coronel Cyrilo Neves, 27<br>
-        Compensa 2, Manaus-AM
-      </address>
-      <p class="ref">Referência: em frente à Ilha Gelada.</p>
-      <a class="btn btn-escuro" href="https://www.google.com/maps/search/?api=1&query=Avenida+Coronel+Cyrilo+Neves+27+Compensa+2+Manaus+AM" target="_blank" rel="noopener">Abrir no Google Maps</a>
+      <address>Avenida Coronel Cyrilo Neves, 27<br>Compensa 2, Manaus-AM</address>
+      <p class="ref"><svg class="ic"><use href="#i-pin"/></svg>Referência: em frente à Ilha Gelada.</p>
+      <a class="btn btn-claro" href="https://www.google.com/maps/search/?api=1&query=Avenida+Coronel+Cyrilo+Neves+27+Compensa+2+Manaus+AM" target="_blank" rel="noopener">Abrir no Google Maps</a>
     </div>
     <div class="contato">
       <h3>Contato</h3>
-      <a class="linha" href="https://wa.me/5592986406309" target="_blank" rel="noopener"><span>WhatsApp</span><b>(92) 98640-6309</b></a>
-      <a class="linha" href="https://www.instagram.com/duartee_barbearia/" target="_blank" rel="noopener"><span>Instagram</span><b>@duartee_barbearia</b></a>
+      <a class="linha" href="https://wa.me/5592986406309" target="_blank" rel="noopener"><svg class="ic"><use href="#i-zap"/></svg><span>WhatsApp<b>(92) 98640-6309</b></span></a>
+      <a class="linha" href="https://www.instagram.com/duartee_barbearia/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-insta"/></svg><span>Instagram<b>@duartee_barbearia</b></span></a>
     </div>
   </div>
 </section>
 </main>
 
 <footer class="rodape">
+  <div class="listra" aria-hidden="true"></div>
   <div class="wrap rod-in">
     <div>
       <strong>Barbearia Duarte</strong>
@@ -111,8 +150,13 @@
       <a href="https://wa.me/5592986406309" target="_blank" rel="noopener">WhatsApp</a>
     </div>
   </div>
-  <p class="credito">Projeto demonstrativo desenvolvido por EACE</p>
+  <div class="wrap demo">
+    <p>Esta é uma demonstração de como poderia ser a página da Barbearia Duarte. O projeto final pode ser totalmente personalizado de acordo com a identidade visual, os serviços, os valores, as fotos e as preferências da barbearia.</p>
+    <p>Projeto demonstrativo desenvolvido por EACE</p>
+  </div>
 </footer>
+
+<a class="zap-flutua" href="https://wa.me/5592986406309" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg class="ic"><use href="#i-zap"/></svg></a>
 
 <script src="script.js" defer></script>
 </body>
